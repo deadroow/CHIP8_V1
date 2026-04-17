@@ -1,0 +1,28 @@
+@startuml
+class Chip8 {
+
+    memory: list
+    stack: list
+    keys: list
+    fontset: list
+    V: list
+    I: int
+    sound: int
+    delay: int
+    draw_flag: bool
+
+    +load_rom()
+    +fetch()
+    +steps()
+
+
+}
+
+class Chip8Software{
+
+    + create(path, data)
+}
+
+Chip8-->Chip8Software: fetch-decode-execute
+
+@enduml

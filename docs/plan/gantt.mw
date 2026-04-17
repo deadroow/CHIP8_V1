@@ -1,0 +1,22 @@
+title: CHIP8
+author:
+    name: Evan Knockaert
+dateFormat: d/M/y
+#ed23de: #prep
+#app: hsl(180, 100%, 52%)
+
+# Preps #prep
+17/04/2026: Préparations
+    - [x] Création d'un fichier boilerplate
+    - [x] Tester si le fichier init.sh fonctionne
+    - [x] Ajoute run .shellcheckrc pour gérer les notifications warning
+    - [x] Créer des fichiers bash
+    - [x] Faire le diagramme de classe de l'application
+
+# App #app
+17/4/2026: Commencer à écrire le code applicatif
+    -[] Créer le fichier chip8.py
+
+# Pre #pre
+17/4/2026: Commencer à écrire le code pré-applicatif
+    -[] Créer le fichier Chip8Software.py
